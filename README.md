@@ -8,7 +8,7 @@ This project approximates sin() using polynomials. It adopts the following const
 
 Within these constraints, this program will search for polynomial coefficients that result in the smallest maximum error.
 
-Inspired by pthis project](https://gist.github.com/publik-void/067f7f2fef32dbe5c27d6e215f824c91) which applies the same "searching for smallest maximum error" concept, but without the constraints. As a result, the polynomials output by this program have a larger maximum error, but are more accurate in applications where the values and derivatives at extremes are important.
+Inspired by [this project](https://gist.github.com/publik-void/067f7f2fef32dbe5c27d6e215f824c91) which applies the same "searching for smallest maximum error" concept, but without the constraints. As a result, the polynomials output by this program have a larger maximum error, but are more accurate in applications where the values and derivatives at extremes are important.
 
 ## Example Output
 
