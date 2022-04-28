@@ -30,3 +30,5 @@ Degree 13 polynomial:
 Minimized absolute error: [max error: 0.000009199689431804714, 0.00004642420816971904x^13 + -0.0003870840543244714x^11 + 0.001224243813519676x^9 + -0.001991878023959648x^7 + 0.009527929928152047x^5 + -0.16694376085913895x^3 + 1x]
 Minimized relative error: [max error: 0.000013219676566533778, 0.000049091568631976115x^13 + -0.0003973068334962563x^11 + 0.0012069221863960503x^9 + -0.0018681684699810976x^7 + 0.009353744929261113x^5 + -0.16687196402433616x^3 + 1x]
 ```
+
+Note that in the output for degree 13, the maximum error is quite a bit larger than the one for degree 11. This seems to be because the minimization utility I'm using is hitting a suboptimal local minimum. There are techniques for smarter polynomial estimation, but it'll take some research to find out how to adapt those techniques for the value and derivative constraints we're using.
